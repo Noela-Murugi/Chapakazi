@@ -1,0 +1,75 @@
+.customer-profile {
+  width: 40%;
+  height: 300px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--secondary-color);
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  position: fixed;
+  right: 5%;
+  top: 80px;
+  position: fixed;
+  background-color: var(--secondary-color);
+}
+
+.customer-profile > img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid var(--primary-color);
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+
+.customer-profile > h3,
+.customer-profile > h4 {
+  text-align: center;
+  color: var(--primary-color);
+}
+.customer-profile > h3 {
+  text-decoration: 2px underline;
+  color: var(--tertiary-color);
+}
+
+.profile-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.profile-actions > button {
+  padding: 5px 30px;
+}
+
+.customer-logout-btn {
+  border: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: var(--tertiary-color);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.customer-reset {
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: 2px solid var(--tertiary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}

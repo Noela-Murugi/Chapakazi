@@ -1,0 +1,88 @@
+.job-page {
+  display: flex;
+  color: var(--secondary-color);
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.customer-info {
+  flex: 1;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 20px;
+  height: 100vh;
+}
+
+.customer-info > img {
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.customer-info > img {
+  width: 20%;
+}
+
+.customer-info > h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.customer-info > h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 3;
+}
+.job-info {
+  flex: 2;
+  padding: 40px;
+}
+
+.job-info > h2 {
+  font-size: 30px;
+  line-height: 5;
+  text-decoration: underline;
+}
+
+.job-info > p {
+  font-size: 15px;
+  word-spacing: 4px;
+  line-height: 2;
+}
+
+.job-info > span {
+  font-size: 15px;
+  color: var(--tertiary-color);
+  line-height: 2;
+}
+
+.apply-job {
+  border: none;
+  padding: 5px 30px;
+  background-color: var(--tertiary-color);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: block;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.application-status {
+  margin-top: 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 5px 30px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}

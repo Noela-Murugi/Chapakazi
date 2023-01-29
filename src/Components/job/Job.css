@@ -1,0 +1,195 @@
+.job-form {
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2.1px 2.1px 0.1px rgba(0, 0, 0, 0.13),
+    5.5px 5.5px 1.9px rgba(0, 0, 0, 0.096),
+    11.1px 11.1px 6.4px rgba(0, 0, 0, 0.084),
+    21px 21px 15.4px rgba(0, 0, 0, 0.074),
+    40.9px 40.9px 33.3px rgba(0, 0, 0, 0.063),
+    100px 100px 80px rgba(0, 0, 0, 0.046);
+  border-radius: 15px;
+}
+
+.job-form-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.job-form > input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--primary-color);
+  background-color: transparent;
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.job-form > label {
+  color: var(--primary-color);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#job-form-btn {
+  margin: 0 auto;
+  background-color: var(--tertiary-color);
+  border: none;
+  padding: 5px 40px;
+  border-radius: 10px;
+  color: var(--primary-color);
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+}
+
+.job-form > textarea {
+  height: 1000px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid var(--tertiary-color);
+  font-size: 15px;
+  padding: 5px;
+}
+
+.job-errors {
+  color: red;
+  font-size: 15px;
+  font-weight: 400;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-top: 20px;
+}
+
+.jobLogin-errors {
+  color: red;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: pink;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.job-card {
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  padding: 15px;
+  margin-top: 30px;
+  color: var(--primary-color);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.job-card > p {
+  font-size: 15px;
+}
+.job-card > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.job-card > span {
+  color: #a59b9b;
+  font-size: 12px;
+}
+
+.job-card > #more {
+  color: var(--tertiary-color);
+  cursor: pointer;
+}
+
+.loading {
+  width: 80%;
+  color: var(--secondary-color);
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.job-container {
+  border: 1px solid #c9c7c7;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #083975;
+  margin-bottom: 50px;
+  padding: 15px;
+  height: 100%;
+}
+
+.no-jobs {
+  height: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--tertiary-color);
+  text-align: center;
+}
+
+#job-title {
+  color: var(--primary-color);
+  text-align: left;
+}
+
+.applicants-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+
+  padding: 10px;
+}
+
+.applicant {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  width: 95%;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.applicant > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.applicants-info > span {
+  display: block;
+  font-size: 12px;
+}
+
+.applicants-info > h5 > a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.accept-btn {
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  padding: 5px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.reject-btn {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: red;
+  color: var(--secondary-color);
+}

@@ -1,0 +1,35 @@
+.my-jobs-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+}
+
+.my-jobs-card {
+  color: var(--secondary-color);
+  width: 80%;
+  border: 1px solid var(--secondary-color);
+  height: fit-content;
+  padding: 20px;
+  margin-top: 20px;
+}
+.my-jobs-card > p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.my-jobs-card > h3 {
+  color: var(--tertiary-color);
+}
+
+.one {
+  font-size: 30px;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 20px;
+}
+.my-jobs-card > span > a {
+  color: var(--tertiary-color);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: underline;
+}

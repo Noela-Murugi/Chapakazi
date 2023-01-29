@@ -1,0 +1,143 @@
+.message-page {
+  background-color: #f4f4f4;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+}
+
+.message-container {
+  border: 1px solid;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.chat {
+  flex: auto;
+  background-color: #f4f4f4;
+  height: 100vh;
+  width: 50%;
+  position: relative;
+}
+.chat-div {
+  overflow: auto;
+  height: 92%;
+  scrollbar-width: none;
+}
+.sidebar {
+  background-color: #0a3971;
+  height: 100%;
+  flex: auto;
+  border-right: 2px solid;
+  padding-top: 1%;
+}
+.sidebar-top {
+  text-align: center;
+  margin-bottom: 5%;
+  color: #feb800;
+  border-bottom: 2px solid black;
+  height: 5.3%;
+}
+.sidebar-header {
+  font-size: 30px;
+}
+.chat-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+  padding-left: 7%;
+  cursor: pointer;
+  height: 100px;
+}
+.chat-user:hover {
+  background-color: #122844;
+}
+.user-image {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.user-name {
+  font-weight: 600;
+  font-size: 17px;
+}
+.users {
+  padding-left: 5%;
+}
+.chatbar {
+  background-color: #0a3971;
+  height: 7%;
+  text-align: center;
+  padding-top: 1%;
+  border-bottom: 2px solid;
+  margin-bottom: 20px;
+}
+.chat-username {
+  font-weight: 600;
+  font-size: 25px;
+}
+.message-input {
+  height: 50px;
+  width: 100%;
+}
+.input {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.inputdiv {
+  flex: auto;
+}
+.text {
+  max-width: 30%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.text-content {
+  background-color: #feb800;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.text-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  margin-bottom: 20px;
+  gap: 20px;
+  border-radius: 20%;
+}
+.text-message {
+  overflow: auto;
+  height: 90%;
+  width: 100%;
+  scrollbar-width: none;
+}
+.send-button {
+  width: 100px;
+  background-color: #0a3971;
+}
+
+.text.owner {
+  align-items: flex-end;
+  max-width: 30%;
+  position: relative;
+  left: 70%;
+}
+.received-content {
+  background-color: #0a3971;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #f4f4f4;
+}
+.back-button {
+  float: left;
+}
+.text-veiw {
+  overflow: auto;
+}

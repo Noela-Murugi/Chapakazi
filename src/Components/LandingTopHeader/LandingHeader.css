@@ -1,0 +1,41 @@
+.landing-header {
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-header > nav {
+  width: 500px;
+  padding: 20px;
+}
+.log {
+  background-color: transparent;
+}
+.landing-login {
+  border: 2.5px solid var(--tertiary-color);
+  padding: 5px 40px;
+  border-radius: 10px;
+  color: var(--secondary-color);
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.landing-signup {
+  border: 1px solid var(--tertiary-color);
+  padding: 5px 40px;
+  border-radius: 10px;
+  color: var(--secondary-color);
+  font-size: 16px;
+  background-color: var(--tertiary-color);
+}
+.kazi-header {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.kazi-header > span {
+  font-size: 25px;
+  color: var(--tertiary-color);
+}

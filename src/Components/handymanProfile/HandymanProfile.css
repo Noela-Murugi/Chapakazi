@@ -1,0 +1,95 @@
+.row-update {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+.row-update > img {
+  display: block;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 4px solid var(--tertiary-color);
+}
+
+.image-profile {
+  position: relative;
+  left: 13%;
+  bottom: 40px;
+  cursor: pointer;
+}
+
+.row-update > h2,
+.row-update > h3,
+.row-update > h4,
+.row-update > h5 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--secondary-color);
+  align-items: center;
+}
+
+.row-update > h2 {
+  color: var(--tertiary-color);
+}
+
+.row-update > h2,
+.row-update > h3,
+.row-update > h4 {
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.row-update > p {
+  width: 80%;
+  color: var(--secondary-color);
+  font-size: 15px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 10px;
+}
+.user-update {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.pen {
+  display: inline;
+}
+
+.updateForm > form > input {
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  padding: 5px 30px;
+  width: 40%;
+  outline: none;
+}
+
+.updateForm > form > button {
+  padding: 6px 30px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  background-color: var(--tertiary-color);
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.updateForm > form {
+  width: 100%;
+}
+.updateForm {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+}
+
+.text-update {
+  display: block;
+  border-radius: 10px;
+}

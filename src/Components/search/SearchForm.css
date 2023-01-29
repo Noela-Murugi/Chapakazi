@@ -1,0 +1,14 @@
+.search-input {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px 0px 0px 10px;
+  border-right: 0px;
+  padding:5.5px 40px;
+}
+
+.search-btn {
+  border: 1px solid var(--primary-color);
+  border-radius: 0px 10px 10px 0px;
+  padding:10px 40px;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}

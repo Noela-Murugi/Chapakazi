@@ -1,0 +1,36 @@
+.footer-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  margin: 0 auto;
+  border-top: 1px solid var(--secondary-color);
+}
+
+#kazi-footer {
+  color: var(--tertiary-color);
+  font-size: 25px;
+}
+
+.footer-style > h2 {
+  font-size: 25px;
+}
+
+#copy-right {
+  display: block;
+  color: var(--secondary-color);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+.social-icon {
+  display: block;
+  color: var(--tertiary-color);
+  font-size: 30px;
+}

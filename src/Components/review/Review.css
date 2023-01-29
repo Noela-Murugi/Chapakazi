@@ -1,0 +1,147 @@
+#review-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#review-form-container > textarea {
+  width: 100%;
+}
+
+.review-form {
+  width: 60%;
+  padding: 15px 20px;
+  margin: 0 auto;
+}
+.review-form > textarea {
+  width: 100%;
+  outline: none;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.review-form > textarea:focus {
+  border: 2px solid var(--tertiary-color);
+}
+
+.review-form > h3 {
+  color: var(--secondary-color);
+}
+
+.review-form-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-review {
+  padding: 8px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--tertiary-color);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.review-container {
+  border-radius: 5px;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-review-header-right > button {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.top-review-header-left,
+.top-review-header-right {
+  padding: 20px;
+}
+.top-review-header-left {
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.top-review-header-left > h3 {
+  font-size: 30px;
+}
+
+.review-body {
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.review-body > p {
+  font-size: 15px;
+  word-spacing: 5px;
+}
+
+#trash-can {
+  display: block;
+  align-self: flex-end;
+  width: fit-content;
+}
+
+.dislike-like {
+  align-self: flex-start;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#thumbs-up,
+#thumbs-down {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active {
+  color: var(--tertiary-color);
+}
+
+.review-errors {
+  color: red;
+  font-size: 15px;
+  background-color: pink;
+  display: block;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.review-handyman{
+  height: 100vh;
+  margin-bottom: 40px;
+}

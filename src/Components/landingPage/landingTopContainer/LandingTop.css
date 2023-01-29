@@ -1,0 +1,246 @@
+#image-container > img {
+  max-width: 100%;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+#image-container {
+  background-image: url("./landingPageImages/blob.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 20px 30px;
+}
+
+.top-container > div {
+  flex: 50%;
+}
+
+#start-section {
+  padding: 20px 20px;
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  border-radius: 15px;
+}
+h2 > #kazi {
+  color: var(--tertiary-color);
+}
+
+#start-section > h2,
+#kazi {
+  word-spacing: 30px;
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+
+#get-started {
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+  background-color: var(--tertiary-color);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#get-started:hover {
+  border: 2px solid var(--tertiary-color);
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+.why-us {
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: var(--secondary-color);
+  padding: 10px 30px;
+  height: 300px;
+}
+
+.numbers {
+  padding: 40px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+  font-size: 18px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  border: 1px solid var(--tertiary-color);
+}
+
+.plus {
+  width: 18px;
+  height: 18px;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.landing-img > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.landing-2 {
+  display: block;
+  text-align: left;
+  padding: 20px;
+}
+
+.landing-2 > span {
+  display: block;
+  color: var(--tertiary-color);
+  border-left: 4px solid var(--tertiary-color);
+  padding: 10px;
+}
+
+.landing-2 > h2 {
+  text-align: left;
+  font-size: 20px;
+  word-spacing: 20px;
+}
+.landing-1 {
+  padding: 20px;
+}
+
+.landing-3 {
+  color: var(--secondary-color);
+
+  padding: 15px;
+}
+
+.landing-3 > p {
+  font-size: 15px;
+}
+
+.circle {
+  padding: 10px;
+  font-weight: 400;
+}
+
+.circle::before {
+  content: "• ";
+  color: var(--tertiary-color);
+  font-size: 20px;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.jobs-descriptions {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+
+.jobs-1 {
+  padding: 15px;
+  color: var(--secondary-color);
+}
+
+.jobs-1 > p {
+  font-size: 14px;
+  border-bottom: 2px solid var(--tertiary-color);
+}
+
+.jobs-1 > h3 {
+  color: var(--tertiary-color);
+  letter-spacing: 2px;
+}
+
+.job-icons {
+  color: var(--tertiary-color);
+  width: 30px;
+  height: 30px;
+}
+.customer-testimonals {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid rgb(221, 217, 217);
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-color);
+}
+
+.part-1 {
+  flex: 0.5;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.part-2 {
+  flex: 2;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.quotes {
+  width: 50px;
+  height: 50px;
+  color: var(--tertiary-color);
+  margin-top: 40px;
+}
+
+.part-2 {
+  background-color: #154d91;
+  padding: 20px 0px;
+}
+
+.part-2 > h3 {
+  font-size: 40px;
+}
+
+.part-2 > h3::after {
+  content: "";
+  border-bottom: 4px solid var(--tertiary-color);
+  top: 1970px;
+  position: absolute;
+  width: 8%;
+  left: 46%;
+}
+
+.part-2 > p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.part-1 > img {
+  display: block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}

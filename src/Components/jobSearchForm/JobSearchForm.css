@@ -1,0 +1,30 @@
+.jobSearchContainer {
+  margin-top: 50px;
+}
+.job-search-form {
+  width: 100%;
+  padding: 10px;
+
+}
+
+.job-search-form > button,
+.job-search-form > input {
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  background-color: var(--secondary-color);
+  font-size: 15px;
+  display: inline;
+}
+
+.job-search-form > button {
+  color: var(--tertiary-color);
+  border-left: 2px solid;
+  border-radius: 0px 10px 10px 0;
+}
+
+.job-search-form > input {
+  border-radius: 10px 0px 0px 10px;
+  width: 900px;
+ margin-left: 150px;
+}

@@ -1,0 +1,44 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alert {
+  border: 1px solid red;
+  width: 500px;
+  height: 200px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.alert > p,
+.alert > button {
+  color: var(--primary-color);
+}
+.alert > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.alert > button {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
