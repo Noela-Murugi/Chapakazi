@@ -17,7 +17,7 @@ To run this project, one must have either of the following;
 
 Clone the repository
 ```
-git clone git@github.com:Murage-Ivy/chapakazi-frontend.git
+git clone git@github.com:Noela-Murugi/Chapakazi-Frontend.git
 ```
 Install dependancies
 ```
